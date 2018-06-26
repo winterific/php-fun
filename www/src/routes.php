@@ -5,7 +5,7 @@ if ($path === '/') {
   die;
 }
 
-$page_path = VIEWS . '/' . trim(strtolower($path), '/') . '.php';
+$page_path = PAGES . '/' . trim(strtolower($path), '/') . '.php';
 if (file_exists($page_path)) {
   include $page_path;
   die;

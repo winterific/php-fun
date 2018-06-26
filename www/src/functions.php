@@ -24,13 +24,13 @@ function body_classes($val=null) {
 }
 
 function block($key, $value=null) {
-  global $blocks;
+  global $__blocks;
   if (!empty($key)) {
     if (!empty($value)) {
-      $blocks[$key] = $value;
+      $__blocks[$key] = $value;
     }
     else {
-      return $blocks[$key];
+      return $__blocks[$key];
     }
   }
 }
