@@ -6,5 +6,7 @@ date_default_timezone_set('America/New_York');
 define('SRC', getcwd().'/../src');
 define('VIEWS', SRC.'/views');
 
+session_start();
 include SRC.'/init.php';
+include SRC.'/functions.php';
 include SRC.'/routes.php';
