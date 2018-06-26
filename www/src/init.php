@@ -1,7 +1,6 @@
 <?php
 $is_post = $_SERVER['REQUEST_METHOD'] === 'POST';
-$uri = explode('?', $_SERVER['REQUEST_URI']);
-$path = $uri[0];
+$path = explode('?', $_SERVER['REQUEST_URI'])[0];
 $query = $_SERVER['QUERY_STRING'];
 $qs = [];
 parse_str($query, $qs);
