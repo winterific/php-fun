@@ -11,6 +11,6 @@ $nav = [
   ['href' => '/', 'title'=>'Home'],
   ['href' => '/some-page', 'title'=>'Some Page'],
   ['href' => '/thank-you', 'title'=>'Thank You Page'],
-  ['href' => '/lshjdfkajshf', 'title'=>'404 Page'],
   ['href' => '/2018/06/happy-birthday', 'title'=>'Birthday Blog Post!!!!'],
+  ['href' => '/lshjdfkajshf', 'title'=>'404 Page'],
 ];
