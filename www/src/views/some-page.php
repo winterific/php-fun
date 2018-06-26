@@ -1,4 +1,5 @@
 <?php
+body_classes('some-page');
 ob_start();
 ?>
 <h3>Yessssss!!!!</h3>

@@ -1,4 +1,5 @@
 <?php
+body_classes('error 404');
 http_response_code(404);
 ob_start();
 ?>

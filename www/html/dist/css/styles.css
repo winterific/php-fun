@@ -37,6 +37,9 @@ h1, h2, h3, h4, h5, h6 {
 header {
   background-color: #2196f3;
 }
+body.error header {
+  background-color: #ff5722;
+}
 header nav ul,
 header nav ul
 {
