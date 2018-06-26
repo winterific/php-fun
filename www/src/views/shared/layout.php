@@ -11,13 +11,7 @@
     <header>
       <div class="wrap"><h1><?= title() ?></h1>
         <nav>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/some-page">Some Page</a></li>
-            <li><a href="/thank-you">Thank You Page</a></li>
-            <li><a href="/lshjdfkajshf">404 Page</a></li>
-            <li><a href="/2018/06/happy-birthday">Birthday Blog Post!!!!</a></li>
-          </ul>
+          <?php include VIEWS.'/shared/nav.php'; ?>
         </nav>
       </div>
     </header>
