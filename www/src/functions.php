@@ -19,7 +19,7 @@ function body_classes($val=null) {
   }
 
   ob_start();
-  ?>class="<?= _(implode(' ', $__body_classes)); ?>"<?php
+  ?>class="<?= _e(implode(' ', $__body_classes)); ?>"<?php
   return ob_get_clean();
 }
 

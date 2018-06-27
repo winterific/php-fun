@@ -13,7 +13,7 @@ ob_start();
 <form class="" action="" method="post">
   <p>
     <label for="name">Name</label>
-    <input type="text" name="name" value="<?= _($form['name']) ?>">
+    <input type="text" name="name" value="<?= _e($form['name']) ?>">
   </p>
   <p>
     <input type="submit" name="" value="Go!">
