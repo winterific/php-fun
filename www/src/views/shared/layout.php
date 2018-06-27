@@ -5,7 +5,6 @@
     <title><?= title('page') ?></title>
     <link href="https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans" rel="stylesheet">
     <link rel="stylesheet" href="/dist/css/styles.css">
-    <script type="text/javascript" src="/dist/js/scripts.js" async></script>
   </head>
   <body <?= body_classes(); ?>>
     <header>
