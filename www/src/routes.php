@@ -1,7 +1,7 @@
 <?php
 
 if ($path === '/') {
-  include VIEWS.'/index.php';
+  include PAGES.'/index.php';
   die;
 }
 
@@ -11,5 +11,5 @@ if (file_exists($page_path)) {
   die;
 }
 
-include VIEWS.'/404.php';
+include PAGES.'/404.php';
 die;
