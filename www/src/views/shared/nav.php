@@ -1,5 +1,5 @@
 <ul>
 <?php foreach ($nav as $link): ?>
-  <li><a href="<?= _($link['href']) ?>"><?= _($link['title']) ?></a></li>
+  <li><a href="<?= _e($link['href']) ?>"><?= _e($link['title']) ?></a></li>
 <?php endforeach; ?>
 </ul>

@@ -1,6 +1,6 @@
 <?php
 
-function _($text) {
+function _e($text) {
   return htmlspecialchars($text);
 }
 
@@ -51,6 +51,6 @@ function populate_form(&$form) {
 
 function clean(&$src, &$dest) {
   foreach($src as $key => $value) {
-    $dest[$key] = _($value);
+    $dest[$key] = _e($value);
   }
 }

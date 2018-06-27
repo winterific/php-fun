@@ -1,3 +1,5 @@
+RedirectMatch 404 ^/web\.config
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
