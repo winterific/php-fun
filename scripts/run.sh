@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker run -p 80:80 -v `pwd`/www:/var/www php-fun
+docker run -d --name php-fun -p 80:80 -v `pwd`/www:/var/www php-fun
