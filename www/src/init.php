@@ -9,6 +9,7 @@ $__body_classes = [];
 
 $nav = [
   ['href' => '/', 'title'=>'Home'],
+  ['href' => '/hi', 'title'=>'Hi!'],
   ['href' => '/thank-you', 'title'=>'Thank You Page'],
   ['href' => '/'.rand(), 'title'=>'404 Page'],
 ];

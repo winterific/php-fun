@@ -30,7 +30,7 @@ function block($key, $value=null) {
       $__blocks[$key] = $value;
     }
     else {
-      return $__blocks[$key];
+      return @$__blocks[$key];
     }
   }
 }
