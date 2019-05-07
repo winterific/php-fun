@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web-service:
+    build:
+      context: ./web-service
+    volumes:
+      - ./web-service/www:/var/www
+    ports:
+      - "8000:80"
